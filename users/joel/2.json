@@ -1,0 +1,12 @@
+{
+  "ID": 2,
+  "name": "Batman",
+  "description": "Batman from DC Comics",
+  "type": "POP",
+  "genre": "MOVIES_TV",
+  "franchise": "DC Comics",
+  "num_franchise": 456,
+  "exclusive": true,
+  "special_specs": "Metallic",
+  "market_value": 40
+}

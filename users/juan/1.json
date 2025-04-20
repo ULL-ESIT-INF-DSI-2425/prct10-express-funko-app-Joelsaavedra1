@@ -1,0 +1,12 @@
+{
+  "ID": 1,
+  "name": "Venom",
+  "description": "Spider-Man from Marvel Comics",
+  "type": "POP",
+  "genre": "MOVIES_TV",
+  "franchise": "Marvel",
+  "num_franchise": 234,
+  "exclusive": true,
+  "special_specs": "Glow in the Dark",
+  "market_value": 35
+}
