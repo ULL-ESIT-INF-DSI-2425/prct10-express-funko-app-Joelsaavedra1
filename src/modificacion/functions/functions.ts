@@ -21,7 +21,7 @@ export const readNote = (title: string): Promise<ResponseType> => {
 
 export const loadNotes = (): Promise<string> => {
   return new Promise<string>((resolve, reject) => {
-    fs.readFile("/home/usuario/DSI/p10/notes.json")
+    fs.readFile("notes.json")
       .then((data) => resolve(data.toString()))
       .catch((err) =>
         reject(new Error(`Error reading notes file: ${err.message}`)),
