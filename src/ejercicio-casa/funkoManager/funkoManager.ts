@@ -7,7 +7,7 @@ import * as fs from "fs/promises";
 /**
  * Directory where user funkos are stored.
  */
-export const __dirname = path.join(path.dirname(fileURLToPath(import.meta.url)), "../../users");
+export const __dirname = path.join(path.dirname(fileURLToPath(import.meta.url)), "../../../users");
 
 /**
  * @param userName - Name of the user

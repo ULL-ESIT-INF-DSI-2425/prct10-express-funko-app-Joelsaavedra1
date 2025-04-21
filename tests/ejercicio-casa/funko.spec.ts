@@ -1,8 +1,8 @@
 import { describe, test, expect, beforeEach, afterEach } from "vitest";
-import { Funko } from "../src/types/funko.js";
-import { FunkoGenre } from "../src/types/funkoGenre.js";
-import { FunkoType } from "../src/types/funkoType.js";
-import { app } from "../src/server/server.js";
+import { Funko } from "../../src/ejercicio-casa/types/funko.js";
+import { FunkoGenre } from "../../src/ejercicio-casa/types/funkoGenre.js";
+import { FunkoType } from "../../src/ejercicio-casa/types/funkoType.js";
+import { app } from "../../src/ejercicio-casa/server/server.js";
 import {
   addFunko,
   updateFunko,
@@ -10,7 +10,7 @@ import {
   showFunko,
   listFunkos,
   __dirname,
-} from "../src/funkoManager/funkoManager.js";
+} from "../../src/ejercicio-casa/funkoManager/funkoManager.js";
 import request from "supertest";
 import * as fs from "fs/promises";
 import * as path from "path";
