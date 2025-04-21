@@ -2,6 +2,7 @@ import express from "express";
 import { readNote } from "../functions/functions.js";
 
 const app = express();
+app.disable('x-powered-by');
 
 app.get("/notes", (req, res) => {
   if (!req.query.title) {
